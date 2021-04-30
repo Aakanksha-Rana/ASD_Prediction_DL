@@ -149,9 +149,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
     # input parameters
-    parser.add_argument('--train_img_path', type=str, default='/home/aakanksha/Documents/acdf/codes/data/train/')
-    parser.add_argument('--val_img_path', type=str, default='/home/aakanksha/Documents/acdf/codes/data/val/')
-    parser.add_argument('--test_img_path', type=str, default='/home/aakanksha/Documents/acdf/codes/data/test')
+    parser.add_argument('--train_img_path', type=str, default='/path/to/train')
+    parser.add_argument('--val_img_path', type=str, default='/path/to/val')
+    parser.add_argument('--test_img_path', type=str, default='/path/to/test')
     parser.add_argument('--train_csv_file', type=str, default='./Train_final.csv')
     parser.add_argument('--val_csv_file', type=str, default='./Val_final.csv')
     parser.add_argument('--test_csv_file', type=str, default='./Test_final.csv')
